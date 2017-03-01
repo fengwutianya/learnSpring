@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="chinese" class="com.xuan.service.impl.Chinese">
+        <property name="axe" ref="steelAxe"/>
+    </bean>
+    <bean id="stoneAxe" class="com.xuan.service.impl.StoneAxe"></bean>
+    <bean id="steelAxe" class="com.xuan.service.impl.SteelAxe"/>
+
+</beans>
