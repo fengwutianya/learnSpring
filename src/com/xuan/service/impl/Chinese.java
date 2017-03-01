@@ -11,7 +11,7 @@ public class Chinese implements Person {
         return axe;
     }
 
-    public void setAxe(Axe axe) {
+    public Chinese(Axe axe) {
         this.axe = axe;
     }
 

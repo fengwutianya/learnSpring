@@ -4,7 +4,7 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
     <bean id="chinese" class="com.xuan.service.impl.Chinese">
-        <property name="axe" ref="steelAxe"/>
+        <constructor-arg ref="steelAxe"/>
     </bean>
     <bean id="stoneAxe" class="com.xuan.service.impl.StoneAxe"></bean>
     <bean id="steelAxe" class="com.xuan.service.impl.SteelAxe"/>
